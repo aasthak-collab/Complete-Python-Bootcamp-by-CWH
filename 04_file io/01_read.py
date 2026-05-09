@@ -1,0 +1,4 @@
+f = open("aastha.txt", "r")
+content = f.read()
+print(content)
+f.close()

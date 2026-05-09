@@ -1,0 +1,5 @@
+ 
+John Doe is a computer enthusiast 
+he likes working with pandas
+
+He lived in NYC
