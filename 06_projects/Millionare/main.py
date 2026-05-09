@@ -8,6 +8,9 @@ questions = [
     ["Which is the highest mountain?", "Mount Everest", "K2", "Kangchenjunga", "Lhotse", 1]
 ]
 
+prizes = [10000, 20000, 40000, 60000, 100000, 140000, 180000]
+
+i=0
 for question in questions:
 
     print("\n" + question[0])
@@ -16,7 +19,7 @@ for question in questions:
     print(f"c. {question[3]}")
     print(f"d. {question[4]}")
 
-    a = int(input("Enter your answer: "))
+    a = int(input("Enter your answer, 1 for a, 2 for b, 3 for c, 4  for d\n "))
 
     # check answer
     if question[5] == a:
@@ -26,3 +29,5 @@ for question in questions:
         print(f"Incorrect! Correct answer was option {question[5]}")
         print("Better luck next time!")
         break
+print(f"You won{prizes[i]}")
+i+=1
